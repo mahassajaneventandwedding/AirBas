@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Air &amp; Bas · Wedding Guest Guide by Mahassajan</title>
+<meta name="description" content="Air & Bas · The Wedding Celebration · 20 November 2026 · Courtyard by Marriott Bangkok Suvarnabhumi Airport — ค้นหาที่นั่งของคุณ">
+<meta property="og:title" content="Air & Bas · The Wedding Celebration">
+<meta property="og:description" content="20 November 2026 · Courtyard by Marriott Bangkok Suvarnabhumi Airport · ค้นหาที่นั่งของคุณ">
+<meta property="og:image" content="https://mahassajaneventandwedding.github.io/AirBas/img/hero.jpg">
+<meta name="theme-color" content="#C9A8AF">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;600&family=Pinyon+Script&family=Prompt:wght@200;300;400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --mauve:#C9A8AF;--mauve-deep:#9C7880;--plum:#5C4148;--ink:#4A3A3E;--muted:#8A7A7E;
+  --ivory:#FBF8F6;--blush:#F4EBEC;--line:#E8DADD;
+  --terra:#C8734A;      /* your-seat / entrance marker */
+  --sand:#EADCC8;       /* soft champagne accent from the couple's photos */
+  --radius:22px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Prompt',sans-serif;font-weight:300;color:var(--ink);background:var(--ivory);-webkit-font-smoothing:antialiased;line-height:1.6}
+img{display:block;max-width:100%}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+.eyebrow{font-family:'Josefin Sans',sans-serif;font-weight:300;letter-spacing:.32em;text-transform:uppercase;font-size:12px}
+
+.demo{background:var(--plum);color:#fff;text-align:center;font-size:12.5px;padding:7px 12px;letter-spacing:.02em}
+.demo b{font-family:'Josefin Sans';font-weight:600;letter-spacing:.2em;margin-right:6px}
+
+.topbar{display:flex;align-items:center;justify-content:center;gap:12px;padding:16px 20px;background:var(--ivory);border-bottom:1px solid var(--line)}
+.topbar img{height:26px}
+.topbar span{font-size:10px;color:var(--mauve-deep)}
+
+/* hero */
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;justify-content:center;color:#fff;text-align:center;overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(92,65,72,.04) 0%,rgba(92,65,72,.10) 38%,rgba(110,78,86,.80) 76%,rgba(92,65,72,.95) 100%)}
+.hero-in{position:relative;z-index:1;padding:0 20px 56px;max-width:640px}
+.hero .eyebrow{color:#fff;opacity:.92}
+.hero h1{font-family:'Pinyon Script',cursive;font-weight:400;font-size:clamp(64px,15vw,112px);line-height:1;margin:14px 0 4px;text-shadow:0 2px 24px rgba(60,40,45,.35)}
+.hero h1 .amp{font-size:.6em;color:var(--sand);padding:0 .08em}
+.hero .th-nick{font-size:16px;opacity:.95;letter-spacing:.02em}
+.hero .names{font-family:'Cormorant Garamond',serif;font-size:18px;letter-spacing:.06em;opacity:.95;margin-top:4px}
+.hero .rule{width:64px;height:1px;background:rgba(255,255,255,.6);margin:20px auto}
+.hero .when{font-family:'Josefin Sans';font-weight:400;letter-spacing:.28em;font-size:13px;text-transform:uppercase}
+.hero .when-th{font-size:14px;opacity:.92;margin-top:4px}
+.hero .where{font-size:14px;opacity:.9;margin-top:6px}
+.countdown{display:flex;justify-content:center;gap:10px;margin-top:26px}
+.cd{min-width:74px;padding:12px 8px 10px;border-radius:16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.cd b{display:block;font-family:'Josefin Sans',sans-serif;font-weight:300;font-size:34px;line-height:1.1;font-variant-numeric:tabular-nums}
+.cd span{display:block;font-size:12px;opacity:.95;margin-top:2px}
+.cd small{display:block;font-family:'Josefin Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;font-size:9px;opacity:.75}
+.cd-cap{font-family:'Josefin Sans';letter-spacing:.22em;text-transform:uppercase;font-size:10px;opacity:.8;margin-top:12px}
+.cd-done{display:none;margin-top:26px;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px}
+@media (max-width:400px){.cd{min-width:64px}.cd b{font-size:28px}}
+.hero .cta{display:inline-flex;align-items:center;gap:10px;margin-top:28px;background:#fff;color:var(--plum);text-decoration:none;padding:14px 28px;border-radius:999px;font-weight:400;font-size:15px;box-shadow:0 8px 30px rgba(60,40,45,.25)}
+.hero .cta svg{width:16px;height:16px}
+
+section{padding:64px 0}
+.sec-head{text-align:center;margin-bottom:28px}
+.sec-head .eyebrow{color:var(--mauve-deep)}
+.sec-head h2{font-family:'Cormorant Garamond',serif;font-weight:400;font-size:38px;color:var(--plum);line-height:1.15;margin-top:6px}
+.sec-head p{color:var(--muted);font-size:14.5px;margin-top:8px}
+.sec-head p.en{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;margin-top:2px}
+.heart-div{width:30px;margin:0 auto 14px;opacity:.9}
+
+/* finder */
+#finder{background:linear-gradient(180deg,var(--blush),var(--ivory))}
+.search{position:relative}
+.search input{width:100%;font-family:'Prompt';font-weight:300;font-size:18px;color:var(--ink);padding:18px 52px 18px 54px;border-radius:999px;border:1.5px solid var(--line);background:#fff;outline:none;transition:border-color .2s, box-shadow .2s;box-shadow:0 6px 24px rgba(156,120,128,.10);-webkit-appearance:none}
+.search input:focus{border-color:var(--mauve);box-shadow:0 0 0 5px rgba(201,168,175,.25)}
+.search input::placeholder{color:#B9AAAD}
+.search input::-webkit-search-cancel-button{display:none}
+.search .ico{position:absolute;left:20px;top:50%;transform:translateY(-50%);width:20px;height:20px;color:var(--mauve-deep)}
+.search .clear{position:absolute;right:14px;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;border:0;background:var(--blush);color:var(--plum);font-size:16px;cursor:pointer;display:none}
+.hint{font-size:13px;color:var(--muted);text-align:center;margin-top:12px}
+.matches{list-style:none;margin-top:14px;display:grid;gap:8px}
+.matches li button{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;background:#fff;border:1px solid var(--line);border-radius:16px;padding:13px 18px;font-family:'Prompt';font-weight:300;font-size:16px;color:var(--ink);cursor:pointer;transition:background .15s,border-color .15s}
+.matches li button:hover{background:var(--blush);border-color:var(--mauve)}
+.matches .tag{font-family:'Josefin Sans';font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mauve-deep);white-space:nowrap}
+.matches .sub{display:block;font-size:12.5px;color:var(--muted)}
+.more{text-align:center;font-size:12.5px;color:var(--muted);margin-top:6px}
+.empty{text-align:center;color:var(--muted);font-size:14px;margin-top:16px;background:#fff;border:1px dashed var(--line);border-radius:16px;padding:16px}
+
+.result{margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px 22px 22px;box-shadow:0 14px 40px rgba(156,120,128,.12);display:none;animation:rise .35s ease;scroll-margin-top:12px}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.result .who{text-align:center}
+.result .who .eyebrow{color:var(--mauve-deep);font-size:11px}
+.result .who h3{font-weight:400;font-size:26px;color:var(--plum);margin-top:4px;line-height:1.35}
+.chips{display:flex;justify-content:center;gap:12px;margin:18px 0 10px}
+.chip{min-width:118px;border-radius:18px;padding:12px 18px;text-align:center}
+.chip small{display:block;font-family:'Josefin Sans';letter-spacing:.24em;text-transform:uppercase;font-size:10.5px;opacity:.85}
+.chip strong{display:block;font-family:'Josefin Sans';font-weight:400;font-size:34px;line-height:1.15;letter-spacing:.04em}
+.chip.t{background:var(--plum);color:#fff}
+.chip.s{background:var(--mauve);color:#fff}
+.tname{text-align:center;color:var(--plum);font-size:15.5px;font-weight:400;margin-bottom:2px}
+.kid-tag{font-style:normal;font-size:11px;background:#F6EADB;color:#9A5A34;border-radius:999px;padding:1px 8px;margin-left:4px;vertical-align:2px}
+.mates li.me .kid-tag{background:#fff}
+.seat-desc{text-align:center;color:var(--muted);font-size:14px}
+.staff-note{display:none;margin-top:12px;background:#FFF6EF;border:1px solid #F1D9C6;color:#8A4D2C;border-radius:12px;padding:10px 14px;font-size:13.5px}
+.tabs{display:flex;background:var(--blush);border-radius:999px;padding:4px;margin:20px 0 16px}
+.tabs button{flex:1;border:0;background:transparent;border-radius:999px;padding:10px 6px;font-family:'Prompt';font-size:14.5px;color:var(--plum);cursor:pointer;font-weight:300}
+.tabs button.on{background:#fff;box-shadow:0 2px 10px rgba(92,65,72,.12);font-weight:400}
+.tabs button small{display:block;font-size:11.5px;color:var(--muted)}
+
+.plan-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:16px;border:1px solid var(--line);background:#FDFBFA}
+.plan-scroll svg{display:block;min-width:900px;width:100%;height:auto}
+.plan-hint{font-size:12px;color:var(--muted);text-align:center;margin-top:8px}
+.legend{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;font-size:12px;color:var(--muted);margin-top:10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+
+.mates{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
+.mates li small{color:var(--muted);font-size:11px}
+.mates li{background:var(--ivory);border:1px solid var(--line);border-radius:12px;padding:8px 12px;font-size:14px;display:flex;gap:10px;align-items:center;word-break:break-word}
+.mates li b{font-family:'Josefin Sans';font-weight:400;font-size:12px;color:#fff;background:var(--mauve);border-radius:50%;width:24px;height:24px;display:grid;place-items:center;flex:none}
+.mates li.me{background:var(--plum);color:#fff;border-color:var(--plum)}
+.mates li.me b{background:#fff;color:var(--plum)}
+.mates li.vacant{color:#C2B4B7;border-style:dashed}
+
+/*PLANCSS-START*/
+/* SVG plan */
+.room{fill:#fff;stroke:#CDBDC1;stroke-width:2}
+.foyer{fill:#FAF5F3;stroke:#DCCDD0;stroke-width:1.4}
+.lbl{font-family:'Josefin Sans';font-size:9px;letter-spacing:.12em;fill:var(--muted);text-transform:uppercase}
+.lbl-th{font-family:'Prompt';font-size:8.5px;fill:var(--muted)}
+.tb{fill:#EFE4E6;stroke:#D8C6CA;stroke-width:1}
+.tb-name{font-family:'Josefin Sans';font-size:9px;font-weight:600;fill:var(--plum);text-anchor:middle;dominant-baseline:central}
+.ch{fill:#fff;stroke:#CDB8BD;stroke-width:.9}
+.ch.taken{fill:#E2CDD2;stroke:#CDB0B7}
+.ch.kid{fill:#F3D9C4;stroke:#D9A986}
+.tg.dim{opacity:.33}
+.tg.hl .tb{fill:var(--plum);stroke:var(--plum)}
+.tg.hl .tb-name.in{fill:#fff}
+.tg.hl .ch.kid{fill:#F3D9C4;stroke:#C8734A}
+.tg.hl .ch.taken{fill:var(--mauve);stroke:var(--mauve-deep)}
+.ring{fill:none;stroke:var(--mauve-deep);stroke-width:1.3;stroke-dasharray:4 3}
+.me-seat{fill:var(--terra);stroke:#fff;stroke-width:1.3}
+.pulse{fill:none;stroke:var(--terra);stroke-width:1.5;animation:pulse 1.6s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(3.2)}}
+.here{fill:var(--terra)}
+
+/*PLANCSS-END*/
+.tg.pick .tb{fill:var(--mauve-deep);stroke:var(--mauve-deep)}
+.tg.pick .tb-name.in{fill:#fff}
+.ov .tg{cursor:pointer}
+/* overview */
+.overview{margin-top:40px;text-align:center}
+.overview .ov-head .eyebrow{color:var(--mauve-deep)}
+.overview .ov-head h3{font-family:'Cormorant Garamond',serif;font-weight:400;font-size:30px;color:var(--plum);line-height:1.2;margin-top:4px}
+.overview .ov-head p{font-size:13.5px;color:var(--muted);margin:6px 0 16px}
+.ov-frame{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:14px;box-shadow:0 14px 40px rgba(156,120,128,.10)}
+.ov-frame .plan-scroll{border:0;background:linear-gradient(180deg,#FDFBFA,#F8F1F1)}
+.tlist{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin-top:14px;text-align:left}
+.tlist button{width:100%;display:flex;gap:9px;align-items:center;background:var(--ivory);border:1px solid var(--line);border-radius:12px;padding:7px 10px;font-family:'Prompt';font-weight:300;font-size:13px;color:var(--ink);cursor:pointer;text-align:left;line-height:1.35}
+.tlist button b{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--mauve);color:#fff;font-family:'Josefin Sans';font-weight:400;font-size:12px}
+.tlist button.on{background:var(--plum);color:#fff;border-color:var(--plum)}
+.tlist button.on b{background:#fff;color:var(--plum)}
+.tpanel{display:none;margin-top:14px;background:var(--blush);border-radius:18px;padding:16px;text-align:left;animation:rise .3s ease}
+.tpanel h4{font-weight:400;font-size:17px;color:var(--plum);margin-bottom:10px}
+.tpanel h4 small{font-size:12.5px;color:var(--muted);margin-left:6px}
+.dl-btn{display:inline-flex;align-items:center;gap:10px;margin-top:20px;background:var(--plum);color:#fff;text-decoration:none;padding:13px 26px;border-radius:999px;font-size:14.5px;font-weight:400;box-shadow:0 8px 24px rgba(92,65,72,.22)}
+.dl-btn svg{width:16px;height:16px}
+.dl-note{font-size:12px;color:var(--muted);margin-top:8px}
+/* spinning footer logo */
+.spin-logo{width:150px;height:150px;margin:0 auto;position:relative;perspective:700px;display:grid;place-items:center}
+.spin-logo .orbit{position:absolute;inset:0;border-radius:50%;border:1px solid rgba(255,255,255,.5);animation:turn 14s linear infinite}
+.spin-logo .orbit::after{content:"";position:absolute;top:-4px;left:50%;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:#fff;box-shadow:0 0 12px 2px rgba(255,255,255,.9)}
+.spin-logo .orbit.o2{inset:13px;border:1px dashed rgba(255,255,255,.35);animation-duration:22s;animation-direction:reverse}
+.spin-logo .orbit.o2::after{width:5px;height:5px;margin-left:-2.5px;top:-3px}
+.spin-logo .glow{position:absolute;inset:30px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.35),transparent 70%);animation:breathe 3s ease-in-out infinite}
+.spin-logo img{position:relative;width:80px;animation:spinY 5s cubic-bezier(.55,.05,.45,.95) infinite;filter:drop-shadow(0 6px 16px rgba(92,65,72,.35))}
+@keyframes spinY{0%{transform:rotateY(0)}100%{transform:rotateY(360deg)}}
+@keyframes turn{to{transform:rotate(360deg)}}
+@keyframes breathe{0%,100%{opacity:.5;transform:scale(.9)}50%{opacity:1;transform:scale(1.08)}}
+footer img.wm{width:min(300px,70vw);margin:22px auto 0}
+@media (prefers-reduced-motion:reduce){.spin-logo *{animation:none!important}}
+/* welcome / invitation */
+.invite{background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.mono{padding:38px 20px 8px;text-align:center}
+.mono .m{display:inline-grid;place-items:center;width:112px;height:112px;border-radius:50%;border:1px solid var(--mauve);position:relative}
+.mono .m::before{content:"";position:absolute;inset:6px;border-radius:50%;border:1px solid var(--line)}
+.mono .m span{font-family:'Pinyon Script',cursive;font-size:46px;color:var(--plum);line-height:1;margin-top:6px}
+.mono .m span i{font-style:normal;font-size:.55em;color:var(--mauve-deep);padding:0 2px}
+.invite .txt{padding:18px 26px 38px;text-align:center}
+.invite .lead{color:var(--muted);font-size:14.5px;line-height:1.75}
+.invite .lead.en{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:17px;color:var(--ink);margin-top:10px;line-height:1.55}
+.couple{margin:26px 0 6px}
+.couple .en{font-family:'Pinyon Script',cursive;font-size:32px;color:var(--mauve-deep);line-height:1.25}
+.couple .th{font-size:16px;color:var(--plum);font-weight:400}
+.rings{display:flex;align-items:center;gap:12px;justify-content:center;margin:12px auto;max-width:280px}
+.rings::before,.rings::after{content:"";flex:1;height:1px;background:var(--line)}
+.rings svg{width:28px;color:var(--mauve-deep)}
+.invite .meta{margin-top:20px;font-size:14.5px;color:var(--ink);line-height:1.8}
+.invite .meta .en{display:block;font-family:'Josefin Sans';letter-spacing:.2em;text-transform:uppercase;font-size:11.5px;color:var(--mauve-deep)}
+
+/* info cards */
+.cards{display:grid;grid-template-columns:1fr;gap:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px;text-decoration:none;color:inherit;display:block;transition:transform .15s,box-shadow .15s}
+a.card:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(156,120,128,.15)}
+.card .k{font-family:'Josefin Sans';letter-spacing:.24em;text-transform:uppercase;font-size:11px;color:var(--mauve-deep)}
+.card h4{font-weight:400;font-size:18px;color:var(--plum);margin:6px 0 4px;line-height:1.35}
+.card p{font-size:13.5px;color:var(--muted)}
+.card .go{margin-top:12px;font-size:13.5px;color:var(--terra);font-weight:400}
+.part{margin-top:18px}
+.part:first-of-type{margin-top:10px}
+.part h5{font-family:'Josefin Sans';font-weight:400;letter-spacing:.22em;text-transform:uppercase;font-size:12.5px;color:var(--plum)}
+.part h5 small{display:block;font-family:'Prompt';letter-spacing:0;text-transform:none;font-size:13px;color:var(--muted);font-weight:300}
+.tl{list-style:none;margin-top:6px}
+.tl li{display:grid;grid-template-columns:62px 1fr;gap:12px;padding:11px 0;border-bottom:1px dashed var(--line)}
+.tl li:last-child{border-bottom:0}
+.tl .t{font-family:'Josefin Sans';font-size:18px;color:var(--plum)}
+.tl .t2{font-size:15px;color:var(--ink)}
+.tl .t2 small{display:block;color:var(--muted);font-size:12.5px}
+.party{margin-top:6px;background:var(--blush);border-radius:16px;padding:14px 16px;font-size:14px}
+.party small{display:block;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:var(--muted)}
+
+/* moments reel */
+#moments{padding-bottom:20px}
+.reel{position:relative;max-width:480px;margin:0 auto;aspect-ratio:2/3;border-radius:26px;overflow:hidden;background:#3a2b2f;box-shadow:0 18px 50px rgba(92,65,72,.22)}
+.reel .f{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}
+.reel .f.on{opacity:1}
+.reel .bg{position:absolute;inset:-30px;background-size:cover;background-position:center;filter:blur(24px) brightness(.8);transform:scale(1.1)}
+.reel .f img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;transform:scale(1);transition:transform 6s linear}
+.reel .f.on img{transform:scale(1.07)}
+.reel .f.cover img{object-fit:cover}
+.reel .shade{position:absolute;inset:auto 0 0 0;height:30%;background:linear-gradient(180deg,transparent,rgba(60,40,45,.55));pointer-events:none}
+.reel .cap{position:absolute;left:0;right:0;bottom:22px;text-align:center;color:#fff;font-family:'Pinyon Script',cursive;font-size:34px;text-shadow:0 2px 14px rgba(0,0,0,.3);pointer-events:none}
+.reel .bars{position:absolute;top:12px;left:14px;right:14px;display:flex;gap:4px;pointer-events:none}
+.reel .bars i{flex:1;height:2.5px;border-radius:2px;background:rgba(255,255,255,.35);overflow:hidden}
+.reel .bars i b{display:block;height:100%;width:0;background:#fff}
+.reel .bars i.done b{width:100%}
+.reel .bars i.cur b{animation:fill var(--dur) linear forwards}
+@keyframes fill{to{width:100%}}
+.reel button{position:absolute;bottom:14px;right:14px;width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.6);background:rgba(0,0,0,.18);color:#fff;cursor:pointer;font-size:12px;z-index:2}
+.reel-hint{text-align:center;font-size:12px;color:var(--muted);margin-top:10px}
+
+footer{background:var(--mauve);color:#fff;text-align:center;padding:52px 20px 40px;margin-top:40px}
+footer img.logo{width:min(240px,62vw);margin:0 auto}
+footer img.tl2{width:150px;margin:14px auto 0;opacity:.95}
+footer .help{max-width:520px;margin:26px auto 0;border:1px solid rgba(255,255,255,.6);border-radius:20px;padding:16px 18px;font-size:13.5px;line-height:1.7}
+footer .help b{display:block;font-family:'Josefin Sans';font-weight:400;letter-spacing:.24em;text-transform:uppercase;font-size:12px;margin-bottom:4px}
+footer .help small{display:block;font-size:12px;opacity:.88;margin-top:4px}
+footer .love{font-family:'Pinyon Script',cursive;font-size:32px;margin-top:28px;line-height:1.2}
+footer .love small{display:block;font-family:'Josefin Sans';letter-spacing:.24em;font-size:11px;text-transform:uppercase;opacity:.9;margin-top:4px}
+footer p{font-size:12.5px;opacity:.9;margin-top:16px;line-height:1.7}
+
+@media (max-width:560px){
+  .sec-head h2{font-size:32px}
+  .couple .en{font-size:28px}
+  .reel{border-radius:20px;margin:0 14px}
+}
+
+/* ===== Air & Bas additions ===== */
+:root{--gold:#D4A941}
+.hero>img{object-position:center 22%}
+.hero h1 .amp{color:#F1DDA8}
+.hero .cd-cap b{font-weight:400}
+.long-tb{fill:#EFE4E6;stroke:#D8C6CA;stroke-width:1}
+.chs{fill:#fff;stroke:#CDB8BD;stroke-width:.9}
+.chs.taken{fill:#E2CDD2;stroke:#CDB0B7}
+.tg.hl .long-tb{fill:var(--plum);stroke:var(--plum)}
+.tg.hl .chs.taken{fill:var(--mauve);stroke:var(--mauve-deep)}
+.tg.pick .long-tb{fill:var(--mauve-deep);stroke:var(--mauve-deep)}
+.tg.hl .tb-name.in,.tg.pick .tb-name.in{fill:#fff}
+.tg.off .tb{fill:#F6F0F1;stroke:#E6DADD;stroke-dasharray:2 2}
+.tg.off .ch{fill:#fff;stroke:#E6DADD}
+.tg.off{pointer-events:none}
+.wall{stroke:#CDBDC1;stroke-width:1;stroke-dasharray:6 3 2 3;fill:none;opacity:.7}
+.mates li b.lg{width:auto;min-width:24px;padding:0 6px;border-radius:12px}
+.mates .side-h{grid-column:1/-1;background:none;border:0;padding:6px 2px 0;font-family:'Josefin Sans';letter-spacing:.2em;text-transform:uppercase;font-size:11px;color:var(--mauve-deep)}
+.tlist button b.lg{border-radius:9px}
+.hosts{font-size:14.5px;color:var(--plum);line-height:1.8;margin-top:22px}
+.hosts small{display:block;color:var(--muted);font-size:13.5px;margin-top:6px}
+.couple .full{font-size:15px;color:var(--plum);font-weight:400}
+.couple .nick{font-size:13px;color:var(--muted)}
+.hash{display:inline-block;margin-top:18px;font-family:'Josefin Sans';letter-spacing:.16em;color:var(--mauve-deep);font-size:14px;border:1px solid var(--line);border-radius:999px;padding:6px 16px}
+.venues{list-style:none;margin-top:12px;display:grid;gap:8px}
+.venues li{background:var(--ivory);border:1px solid var(--line);border-radius:14px;padding:10px 14px;font-size:14px;color:var(--ink)}
+.venues li span{display:block;font-family:'Josefin Sans';letter-spacing:.2em;text-transform:uppercase;font-size:10.5px;color:var(--mauve-deep)}
+.dots{display:flex;gap:8px;justify-content:center;margin:14px 0 4px;flex-wrap:wrap}
+.dots i{width:26px;height:26px;border-radius:50%;border:1px solid rgba(92,65,72,.25);box-shadow:0 2px 6px rgba(92,65,72,.08)}
+.dress{text-align:center}
+.dress h4{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400}
+.tl .t2 small.vn{font-family:'Josefin Sans';letter-spacing:.1em;font-size:11px;color:var(--mauve-deep)}
+.part .vn{font-size:12.5px;color:var(--mauve-deep);margin-top:2px}
+</style>
+</head>
+<body>
+
+<div class="demo" id="preview-bar"><b>PREVIEW</b>ตัวอย่างก่อนใช้งานจริง · ข้อมูลอาจมีการปรับก่อนวันงาน</div>
+
+<header class="topbar">
+  <img src="img/logo-mauve.png" alt="Mahassajan">
+  <span class="eyebrow">Wedding Planner</span>
+</header>
+
+<section class="hero" style="padding:0">
+  <img src="img/hero.jpg" alt="Air & Bas">
+  <div class="hero-in">
+    <div class="eyebrow">The Wedding Celebration</div>
+    <h1>Air<span class="amp">&amp;</span>Bas</h1>
+    <div class="th-nick">คุณแอร์ &amp; คุณบาส</div>
+    <div class="names">Titayapa Atthapulsap · Keatisak Suntipiyakul</div>
+    <div class="rule"></div>
+    <div class="when">Friday · 20 November 2026</div>
+    <div class="when-th">วันศุกร์ที่ 20 พฤศจิกายน 2569</div>
+    <div class="where">Courtyard by Marriott Bangkok Suvarnabhumi Airport</div>
+    <div class="countdown" id="countdown" aria-live="polite">
+      <div class="cd"><b id="cd-d">0</b><span>วัน<small>Days</small></span></div>
+      <div class="cd"><b id="cd-h">00</b><span>ชั่วโมง<small>Hours</small></span></div>
+      <div class="cd"><b id="cd-m">00</b><span>นาที<small>Minutes</small></span></div>
+      <div class="cd"><b id="cd-s">00</b><span>วินาที<small>Seconds</small></span></div>
+    </div>
+    <div class="cd-cap" id="cd-cap">Until the Wedding Reception · 18:00<br><span style="letter-spacing:.04em;text-transform:none;font-family:'Prompt';font-size:12px">นับถอยหลังสู่เวลาเปิดลงทะเบียนงานเลี้ยง 18:00 น.</span></div>
+    <div class="cd-done" id="cd-done">Thank you for celebrating with us · ขอบคุณที่มาร่วมเป็นส่วนหนึ่งในวันสำคัญของเรา</div>
+    <a class="cta" href="#finder">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      ค้นหาที่นั่งของคุณ
+    </a>
+  </div>
+</section>
+
+<!-- FIND YOUR SEAT -->
+<section id="finder">
+  <div class="wrap">
+    <div class="sec-head">
+      <img class="heart-div" src="img/heart-mauve.png" alt="">
+      <div class="eyebrow">Find your seat</div>
+      <h2>ค้นหาหมายเลขโต๊ะของคุณ</h2>
+      <p>ยินดีต้อนรับแขกทุกท่าน กรุณาค้นหาชื่อของคุณเพื่อดูหมายเลขโต๊ะและตำแหน่งที่นั่งภายในงาน</p>
+      <p class="en">Welcome! Please search for your name to find your assigned table and seating location.</p>
+    </div>
+    <div class="search">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" autocomplete="off" placeholder="Search Guest Name | ค้นหาชื่อแขก" aria-label="ค้นหาชื่อแขก">
+      <button class="clear" id="clear" aria-label="ล้าง">✕</button>
+    </div>
+    <div class="hint" id="hint">พิมพ์ชื่อเล่นบางส่วนก็เจอ · ถ้ามีชื่อซ้ำ เลือกจากรายการได้เลย</div>
+    <ul class="matches" id="matches"></ul>
+    <div class="more" id="more" style="display:none"></div>
+    <div class="empty" id="empty" style="display:none">ยังไม่พบชื่อนี้ ลองพิมพ์ชื่อเล่นอีกครั้ง<br>หรือติดต่อทีม Mahassajan ที่จุดลงทะเบียนได้เลยค่ะ</div>
+
+    <div class="result" id="result">
+      <div class="who">
+        <div class="eyebrow">Welcome</div>
+        <h3 id="r-name"></h3>
+      </div>
+      <div class="chips">
+        <div class="chip t"><small>Table · โต๊ะ</small><strong id="r-table"></strong></div>
+        <div class="chip s" id="r-seat-chip"><small>Seat · ที่นั่ง</small><strong id="r-seat"></strong></div>
+      </div>
+      <div class="tname" id="r-tname"></div>
+      <div class="seat-desc" id="r-desc"></div>
+      <div class="staff-note" id="r-note"></div>
+
+      <div class="tabs">
+        <button class="on" data-tab="plan">โต๊ะอยู่ตรงไหน<small>View Seating Plan</small></button>
+        <button data-tab="mates">ใครนั่งโต๊ะเดียวกัน<small id="r-count"></small></button>
+      </div>
+      <div id="tab-plan">
+        <div class="plan-scroll" id="plan-scroll"></div>
+        <div class="plan-hint">เลื่อนซ้าย–ขวาเพื่อดูผังทั้งห้อง · เวทีอยู่ฝั่งขวา</div>
+        <div class="legend">
+          <span><i style="background:var(--terra)"></i>ที่นั่งของคุณ</span>
+          <span><i style="background:var(--plum)"></i>โต๊ะของคุณ</span>
+          <span><i style="background:var(--terra);border-radius:2px"></i>จุดลงทะเบียน / ทางเข้า</span>
+        </div>
+      </div>
+      <div id="tab-mates" style="display:none">
+        <ul class="mates" id="mates"></ul>
+      </div>
+    </div>
+
+    <div class="overview" id="overview">
+      <div class="ov-head">
+        <div class="eyebrow">Seating Plan</div>
+        <h3>ผังห้องจัดเลี้ยง</h3>
+        <p>Grand Ballroom (Level 3) · แตะที่โต๊ะหรือชื่อโต๊ะ เพื่อดูว่าใครนั่งโต๊ะไหน</p>
+      </div>
+      <div class="ov-frame">
+        <div class="plan-scroll ov" id="ov-scroll"></div>
+        <div class="plan-hint">เลื่อนซ้าย–ขวาเพื่อดูผังทั้งห้อง · เวทีอยู่ฝั่งขวา</div>
+        <div class="tpanel" id="tpanel"><h4 id="tp-h"></h4><ul class="mates" id="tp-list"></ul></div>
+        <ul class="tlist" id="tlist"></ul>
+      </div>
+      <a class="dl-btn" href="airbas-seating-plan.pdf" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>
+        ดาวน์โหลดผังโต๊ะ (PDF)
+      </a>
+      <div class="dl-note">Seating Plan artwork · ผังห้องพร้อมรายชื่อทุกโต๊ะ</div>
+    </div>
+  </div>
+</section>
+
+<!-- WELCOME -->
+<section id="invite">
+  <div class="wrap">
+    <div class="invite">
+      <div class="mono"><div class="m" role="img" aria-label="Air & Bas"><span>A<i>&amp;</i>B</span></div></div>
+      <div class="txt">
+        <div class="eyebrow" style="color:var(--mauve-deep)">Welcome to our wedding</div>
+        <div style="font-size:15px;color:var(--plum);margin:4px 0 16px">ยินดีต้อนรับสู่งานแต่งงานของเรา</div>
+        <p class="lead">ขอต้อนรับครอบครัว ญาติผู้ใหญ่ และเพื่อน ๆ ทุกท่านเข้าสู่วันสำคัญของเราทั้งสองคน<br>ขอบคุณทุกท่านที่มาร่วมเป็นส่วนหนึ่งของความทรงจำแสนพิเศษ และร่วมเฉลิมฉลองความรักของเราในวันนี้</p>
+        <p class="lead en">We are delighted to celebrate this special day with our beloved family and friends.
+        Thank you for being part of our beautiful journey and sharing this unforgettable moment with us.</p>
+        <div class="hosts">นายธวัช อรรถพูลทรัพย์ – นางรัชนิศ โสภณพิศ<br>และ นายสุพัฒน์ สันติปิยกุล
+          <small>มีความยินดีขอเรียนเชิญเพื่อเป็นเกียรติในงานเลี้ยงฉลองเนื่องในพิธีมงคลสมรส ระหว่าง</small></div>
+        <div class="couple">
+          <div class="en">Titayapa Atthapulsap</div>
+          <div class="full">ทิตยาภา อรรถพูลทรัพย์</div>
+          <div class="nick">คุณแอร์</div>
+          <div class="rings"><svg viewBox="0 0 32 18" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="9" r="7"/><circle cx="21" cy="9" r="7"/></svg></div>
+          <div class="en">Keatisak Suntipiyakul</div>
+          <div class="full">เกียรติศักดิ์ สันติปิยกุล</div>
+          <div class="nick">คุณบาส</div>
+        </div>
+        <div class="meta">
+          <span class="en">Friday · 20 November 2026</span>วันศุกร์ที่ 20 พฤศจิกายน พ.ศ. 2569<br>
+          <span class="en" style="margin-top:8px">Six o'clock in the evening · Grand Ballroom</span>เวลา 18:00 น. ณ แกรนด์บอลรูม<br>
+          <span class="en" style="margin-top:8px">Courtyard by Marriott Bangkok Suvarnabhumi Airport</span>โรงแรมคอร์ทยาร์ด บาย แมริออท กรุงเทพฯ สุวรรณภูมิ แอร์พอร์ท
+        </div>
+        <div class="hash">#airbasday</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DETAILS -->
+<section id="details" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Wedding day schedule</div>
+      <h2>กำหนดการวันแต่งงาน</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="part">
+          <h5>Afternoon Engagement Ceremony<small>พิธีหมั้นและยกน้ำชาช่วงบ่าย</small></h5>
+          <div class="vn">Burirom (Level 1) / Lawn Klong Side</div>
+          <ul class="tl">
+            <li><span class="t">14:09</span><span class="t2">พิธีแห่ขันหมากตามประเพณีไทย<small>Khan Mak Procession · Traditional Thai Engagement Procession</small></span></li>
+            <li><span class="t">14:29</span><span class="t2">พิธีเจรจาสู่ขอ<small>Traditional Engagement Ceremony · Traditional Thai Marriage Proposal</small></span></li>
+            <li><span class="t">14:59</span><span class="t2">พิธีสวมแหวนหมั้น<small>Ring Ceremony · Engagement Ring Exchange</small></span></li>
+            <li><span class="t">15:09</span><span class="t2">พิธียกน้ำชาตามประเพณีจีน<small>Chinese Tea Ceremony · Traditional Chinese Tea Ceremony</small></span></li>
+            <li><span class="t">15:40</span><span class="t2">ถ่ายภาพร่วมกับครอบครัว ญาติผู้ใหญ่ และเพื่อน ๆ<small>Family &amp; Group Photography</small></span></li>
+          </ul>
+        </div>
+        <div class="part">
+          <h5>Wedding Reception<small>งานเลี้ยงฉลองมงคลสมรส</small></h5>
+          <div class="vn">Grand Ballroom (Level 3)</div>
+          <ul class="tl">
+            <li><span class="t">18:00</span><span class="t2">เปิดลงทะเบียนต้อนรับแขกและถ่ายภาพร่วมกับคู่บ่าวสาว<small>Guest Registration, Welcome Drinks &amp; Wedding Photography</small></span></li>
+            <li><span class="t">19:00</span><span class="t2">เริ่มพิธีการฉลองมงคลสมรส<small>Wedding Reception Ceremony</small></span></li>
+          </ul>
+        </div>
+        <div class="part">
+          <h5>After Party<small>งานเลี้ยงสังสรรค์ร่วมกับคู่บ่าวสาว</small></h5>
+          <div class="vn">Ballroom 3 (Level 3)</div>
+          <ul class="tl">
+            <li><span class="t">21:30</span><span class="t2">เริ่มงาน After Party ร่วมสนุกกับคู่บ่าวสาว<small>Let's continue the celebration with music, dancing, and unforgettable memories!</small></span></li>
+            <li><span class="t">00:00</span><span class="t2">สิ้นสุดงานเลี้ยงสังสรรค์<small>End of the After Party</small></span></li>
+          </ul>
+        </div>
+      </div>
+      <a class="card" href="https://www.google.com/maps/search/?api=1&amp;query=Courtyard+by+Marriott+Bangkok+Suvarnabhumi+Airport" target="_blank" rel="noopener">
+        <div class="k">Wedding Venue · สถานที่จัดงาน</div>
+        <h4>Courtyard by Marriott Bangkok Suvarnabhumi Airport</h4>
+        <p>โรงแรมคอร์ทยาร์ด บาย แมริออท กรุงเทพฯ สุวรรณภูมิ แอร์พอร์ท · Bangkok, Thailand</p>
+        <ul class="venues">
+          <li><span>Afternoon Ceremony</span>Burirom (Level 1) / Lawn Klong Side</li>
+          <li><span>Wedding Reception</span>Grand Ballroom (Level 3)</li>
+          <li><span>After Party</span>Ballroom 3 (Level 3)</li>
+        </ul>
+        <div class="go">GET DIRECTIONS · นำทางไปยังโรงแรม →</div>
+      </a>
+      <div class="card dress">
+        <div class="k">Dress Code · การแต่งกาย</div>
+        <h4>Colorful Pastels</h4>
+        <div class="dots"><i style="background:#F6DCDD"></i><i style="background:#F5AF8D"></i><i style="background:#F28F4E"></i><i style="background:#F6BBD7"></i><i style="background:#FFE88A"></i><i style="background:#E2C6DF"></i><i style="background:#DBE8D7"></i></div>
+        <p>โทนสีพาสเทลสดใส · #airbasday</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MOMENTS -->
+<section id="moments">
+  <div class="sec-head wrap">
+    <div class="eyebrow">Our moments</div>
+    <h2>Air &amp; Bas</h2>
+  </div>
+  <div class="reel" id="reel">
+    <div class="bars" id="bars"></div>
+    <div class="shade"></div>
+    <div class="cap">Air &amp; Bas</div>
+    <button id="reel-pp" aria-label="หยุด/เล่น">❚❚</button>
+  </div>
+  <div class="reel-hint">แตะที่ภาพเพื่อดูภาพถัดไป</div>
+</section>
+
+<footer>
+  <div class="spin-logo" aria-hidden="true"><div class="glow"></div><div class="orbit"></div><div class="orbit o2"></div><img src="img/heart-white.png" alt=""></div>
+  <img class="wm" src="img/wordmark-white.png" alt="Mahassajan">
+  <img class="tl2" src="img/tagline-white.png" alt="Wedding Planner">
+  <div class="help">
+    <b>Need assistance? · ต้องการความช่วยเหลือ?</b>
+    หาชื่อไม่เจอ หรือต้องการความช่วยเหลือในการค้นหาที่นั่ง กรุณาติดต่อทีมงาน Mahassajan Wedding Planner บริเวณจุดลงทะเบียน
+    <small>If you need any assistance or help finding your table, our Mahassajan Wedding Planner team will be happy to assist you at the registration area.</small>
+  </div>
+  <div class="love">With love, Air &amp; Bas<small>20 November 2026</small></div>
+  <p>Thank you for celebrating with us.<br>ขอบคุณที่มาร่วมเป็นส่วนหนึ่งในวันสำคัญของเรา</p>
+  <p style="opacity:.75;font-size:11.5px">MAHASSAJAN WEDDING PLANNER · Wedding Planning &amp; Coordination</p>
+</footer>
+
+<!--
+  ===== ข้อมูลผังและแขก (จากไฟล์ WEDDING TABLE 20 NOV 2026) =====
+  โต๊ะยาว: A/B = โต๊ะยาว 1 (ฝั่งบน/ล่าง), C/D = โต๊ะยาว 2 · ที่นั่ง 1 อยู่ปลายโต๊ะฝั่งเวที
+  โต๊ะกลม: ที่นั่ง 1 = ฝั่งตรงข้ามเวที นับวนตามเข็มนาฬิกา
+-->
+<script type="application/json" id="seat-data">
+{"tables":[{"id":"A","name":"โต๊ะยาว 1 · ฝั่ง A","type":"long","cap":15},{"id":"B","name":"โต๊ะยาว 1 · ฝั่ง B","type":"long","cap":15},{"id":"C","name":"โต๊ะยาว 2 · ฝั่ง C","type":"long","cap":15},{"id":"D","name":"โต๊ะยาว 2 · ฝั่ง D","type":"long","cap":15},{"id":"1","name":"พ่อแม่เจ้าสาว (VIP)","type":"round","cap":10,"empty":false},{"id":"2","name":"ทร (VIP)","type":"round","cap":10,"empty":true},{"id":"3","name":"ญาตินนทบุรี (VIP)","type":"round","cap":10,"empty":false},{"id":"4","name":"ญาติคุณยาย (VIP)","type":"round","cap":10,"empty":false},{"id":"5","name":"พ่อเจ้าบ่าว (VIP)","type":"round","cap":10,"empty":false},{"id":"6","name":"ญาติพ่อเจ้าบ่าว (VIP)","type":"round","cap":10,"empty":false},{"id":"7","name":"ญาติแม่เจ้าบ่าว (VIP)","type":"round","cap":10,"empty":false,"note":"แจ้งไว้ 11 คน"},{"id":"8","name":"ญาติเจ้าสาว 1 (VIP)","type":"round","cap":10,"empty":false},{"id":"9","name":"Brighton","type":"round","cap":10,"empty":false},{"id":"10","name":"ญาติเจ้าสาว 2","type":"round","cap":10,"empty":false},{"id":"11","name":"วรารมณ์","type":"round","cap":10,"empty":false},{"id":"12","name":"MD","type":"round","cap":10,"empty":false},{"id":"13","name":"เพื่อนคุณพ่อ","type":"round","cap":10,"empty":false},{"id":"14","name":"ญาติเจ้าสาว 3","type":"round","cap":10,"empty":false},{"id":"15","name":"ACS","type":"round","cap":10,"empty":false},{"id":"16","name":"แขกบริษัทไทยวี","type":"round","cap":10,"empty":false},{"id":"17","name":"NOKAIR 1","type":"round","cap":10,"empty":false},{"id":"18","name":"NOKAIR 2","type":"round","cap":10,"empty":false},{"id":"19","name":"CATC + TAA","type":"round","cap":10,"empty":false},{"id":"20","name":"TLM","type":"round","cap":10,"empty":false},{"id":"21","name":"CMMU","type":"round","cap":10,"empty":false},{"id":"22","name":"CMMU","type":"round","cap":10,"empty":false},{"id":"23","name":"CATC + TAA","type":"round","cap":10,"empty":false},{"id":"24","name":"TLM","type":"round","cap":10,"empty":false},{"id":"25","name":"CU","type":"round","cap":10,"empty":false},{"id":"26","name":"CU","type":"round","cap":10,"empty":false},{"id":"27","name":"RAFFLE","type":"round","cap":10,"empty":false},{"id":"28","name":"CX TEAM","type":"round","cap":10,"empty":true},{"id":"29","name":"ไทยวี","type":"round","cap":10,"empty":false},{"id":"30","name":"CU","type":"round","cap":10,"empty":true},{"id":"31","name":"สำรอง","type":"round","cap":10,"empty":true},{"id":"32","name":"สำรอง","type":"round","cap":9,"empty":true}],"guests":[{"name":"พี่เปรม","table":"A","seats":[1],"kid":false,"note":"","ig":""},{"name":"พี่ศุภ","table":"A","seats":[2],"kid":false,"note":"","ig":""},{"name":"พี่อั้ม","table":"A","seats":[3],"kid":false,"note":"","ig":""},{"name":"พี่โอ๋","table":"A","seats":[4],"kid":false,"note":"","ig":""},{"name":"พี่แพร F","table":"A","seats":[5],"kid":false,"note":"","ig":""},{"name":"พี่พลอย F","table":"A","seats":[6],"kid":false,"note":"","ig":""},{"name":"Chris","table":"A","seats":[7,8],"kid":false,"note":"","ig":""},{"name":"Omni","table":"A","seats":[10,11],"kid":false,"note":"","ig":""},{"name":"พี่พักตร์ จัน","table":"A","seats":[12],"kid":false,"note":"","ig":""},{"name":"พี่แพรว จัน","table":"A","seats":[13],"kid":false,"note":"","ig":""},{"name":"ป้าตา","table":"A","seats":[14],"kid":false,"note":"","ig":""},{"name":"น้าจอย","table":"A","seats":[15],"kid":false,"note":"","ig":""},{"name":"พี่เมย์","table":"B","seats":[1],"kid":false,"note":"","ig":""},{"name":"เมย์ นัท","table":"B","seats":[2,3],"kid":false,"note":"","ig":""},{"name":"พี่เอ๊ะ","table":"B","seats":[4],"kid":false,"note":"","ig":""},{"name":"พี่ลิส","table":"B","seats":[5],"kid":false,"note":"","ig":""},{"name":"พี","table":"B","seats":[6],"kid":false,"note":"","ig":""},{"name":"พี่ส้ม","table":"B","seats":[7],"kid":false,"note":"","ig":""},{"name":"จูน MJ","table":"B","seats":[8],"kid":false,"note":"","ig":""},{"name":"พี่เหมย MJ","table":"B","seats":[9],"kid":false,"note":"","ig":""},{"name":"Omni","table":"B","seats":[10,11],"kid":false,"note":"","ig":""},{"name":"พี่พลอย จัน","table":"B","seats":[12],"kid":false,"note":"","ig":""},{"name":"พี่แนน จัน","table":"B","seats":[13],"kid":false,"note":"","ig":""},{"name":"พี่แพท","table":"B","seats":[14,15],"kid":false,"note":"","ig":""},{"name":"น้องอิงฟ้า","table":"C","seats":[1],"kid":false,"note":"","ig":""},{"name":"น้องปัด","table":"C","seats":[2],"kid":false,"note":"","ig":""},{"name":"น้องปิงปอง","table":"C","seats":[3],"kid":false,"note":"","ig":""},{"name":"เจิ้น MD","table":"C","seats":[4],"kid":false,"note":"","ig":""},{"name":"พลอย MD","table":"C","seats":[5],"kid":false,"note":"","ig":""},{"name":"เมี่ยง MD","table":"C","seats":[6],"kid":false,"note":"","ig":""},{"name":"เว MD","table":"C","seats":[7],"kid":false,"note":"","ig":""},{"name":"เพชร MD","table":"C","seats":[8],"kid":false,"note":"","ig":""},{"name":"นิ้ง MD","table":"C","seats":[9],"kid":false,"note":"","ig":""},{"name":"มายด์ MD","table":"C","seats":[10,11],"kid":false,"note":"","ig":""},{"name":"น้องนัท","table":"C","seats":[12],"kid":false,"note":"","ig":""},{"name":"แฟนนัท","table":"C","seats":[13],"kid":false,"note":"","ig":""},{"name":"นโม","table":"C","seats":[14],"kid":false,"note":"","ig":""},{"name":"น้องพรีม","table":"C","seats":[15],"kid":false,"note":"","ig":""},{"name":"น้องนุ่น","table":"D","seats":[1],"kid":false,"note":"","ig":""},{"name":"น้องจินจิน","table":"D","seats":[2],"kid":false,"note":"","ig":""},{"name":"น้องแพท","table":"D","seats":[3],"kid":false,"note":"","ig":""},{"name":"น้องพลอย","table":"D","seats":[4],"kid":false,"note":"","ig":""},{"name":"ณัฐธร MD","table":"D","seats":[5],"kid":false,"note":"","ig":""},{"name":"นวนันท์ MD","table":"D","seats":[6],"kid":false,"note":"","ig":""},{"name":"เบลท์ MD","table":"D","seats":[7],"kid":false,"note":"","ig":""},{"name":"เตย เอฟ","table":"D","seats":[8],"kid":false,"note":"","ig":""},{"name":"เอฟ MD","table":"D","seats":[9],"kid":false,"note":"","ig":""},{"name":"ขิม MD","table":"D","seats":[10,11],"kid":false,"note":"","ig":""},{"name":"นิว","table":"D","seats":[12],"kid":false,"note":"","ig":""},{"name":"เฟรสซี่","table":"D","seats":[13],"kid":false,"note":"","ig":""},{"name":"ซูกัส","table":"D","seats":[14],"kid":false,"note":"","ig":""},{"name":"แฟนซูกัส","table":"D","seats":[15],"kid":false,"note":"","ig":""},{"name":"แม่เจ้าสาว","table":"1","seats":[1],"kid":false,"note":"","ig":""},{"name":"พ่อเจ้าสาว","table":"1","seats":[2],"kid":false,"note":"","ig":""},{"name":"ลุงชาย","table":"1","seats":[3],"kid":false,"note":"","ig":""},{"name":"น้าอ้อม","table":"1","seats":[4],"kid":false,"note":"","ig":""},{"name":"ลุงกุ๊ก","table":"1","seats":[5],"kid":false,"note":"","ig":""},{"name":"น้าปุก","table":"1","seats":[6],"kid":false,"note":"","ig":""},{"name":"น้าหน่อย","table":"1","seats":[7],"kid":false,"note":"","ig":""},{"name":"น้าอ้น","table":"1","seats":[8],"kid":false,"note":"","ig":""},{"name":"อาจารย์ STJ","table":"1","seats":[9,10],"kid":false,"note":"","ig":""},{"name":"ย่าแคท","table":"3","seats":[1],"kid":false,"note":"","ig":""},{"name":"อาอิ้ว","table":"3","seats":[2],"kid":false,"note":"","ig":""},{"name":"ลุงเปิ้ล","table":"3","seats":[3],"kid":false,"note":"","ig":""},{"name":"ป้านา","table":"3","seats":[4],"kid":false,"note":"","ig":""},{"name":"ป้าเล็ก","table":"3","seats":[5],"kid":false,"note":"","ig":""},{"name":"ป้าลำใย","table":"3","seats":[6],"kid":false,"note":"","ig":""},{"name":"ลุงเบิร์ด","table":"3","seats":[7],"kid":false,"note":"","ig":""},{"name":"ป้ารี","table":"3","seats":[8],"kid":false,"note":"","ig":""},{"name":"พี่ขวัญ","table":"3","seats":[9],"kid":false,"note":"","ig":""},{"name":"ลุงปั้น","table":"4","seats":[1],"kid":false,"note":"","ig":""},{"name":"ลุงป้อม","table":"4","seats":[2],"kid":false,"note":"","ig":""},{"name":"ลุงโจ","table":"4","seats":[3],"kid":false,"note":"","ig":""},{"name":"ป้ารี รพ","table":"4","seats":[4,5,6],"kid":false,"note":"","ig":""},{"name":"ตาเล็ก","table":"4","seats":[7],"kid":false,"note":"","ig":""},{"name":"ยายเง็ก","table":"4","seats":[8],"kid":false,"note":"","ig":""},{"name":"ยายเพ็ญ","table":"4","seats":[9],"kid":false,"note":"","ig":""},{"name":"พ่อเจ้าบ่าว","table":"5","seats":[1],"kid":false,"note":"","ig":""},{"name":"กู๋หยิน","table":"5","seats":[2],"kid":false,"note":"","ig":""},{"name":"คุณต้น","table":"5","seats":[3,4],"kid":false,"note":"","ig":""},{"name":"คุณปู่ เจ้าสาว","table":"5","seats":[5],"kid":false,"note":"","ig":""},{"name":"คุณย่า เจ้าสาว","table":"5","seats":[6],"kid":false,"note":"","ig":""},{"name":"ศุหนอน","table":"5","seats":[7],"kid":false,"note":"","ig":""},{"name":"ศุก้อง","table":"5","seats":[8],"kid":false,"note":"","ig":""},{"name":"โอเว่น","table":"6","seats":[1],"kid":false,"note":"","ig":""},{"name":"พิ้ง","table":"6","seats":[2],"kid":false,"note":"","ig":""},{"name":"พีช","table":"6","seats":[3],"kid":false,"note":"","ig":""},{"name":"กูหม๋อย","table":"6","seats":[4],"kid":false,"note":"","ig":""},{"name":"ปุ้ย","table":"7","seats":[1],"kid":false,"note":"","ig":""},{"name":"ลี่","table":"7","seats":[2,3],"kid":false,"note":"","ig":""},{"name":"ซี","table":"7","seats":[4,5],"kid":false,"note":"","ig":""},{"name":"อ๊อฟ","table":"7","seats":[6,7,8],"kid":false,"note":"","ig":""},{"name":"เจ้บี","table":"7","seats":[9],"kid":false,"note":"ไฟล์เขียน \"เจ้บี 2\" แต่เหลือเก้าอี้ 1 ตัว (โต๊ะ 7 แจ้งไว้ 11 คน · มี 10 ที่) — เตรียมเสริมเก้าอี้","ig":""},{"name":"บอส","table":"7","seats":[10],"kid":false,"note":"","ig":""},{"name":"อาเย่","table":"8","seats":[1],"kid":false,"note":"","ig":""},{"name":"ไนไน่","table":"8","seats":[2],"kid":false,"note":"","ig":""},{"name":"เจกหมู","table":"8","seats":[3],"kid":false,"note":"","ig":""},{"name":"เจกบอย","table":"8","seats":[4],"kid":false,"note":"","ig":""},{"name":"แปะเฮง","table":"8","seats":[5,6],"kid":false,"note":"","ig":""},{"name":"เจ้เหมย","table":"8","seats":[7,8],"kid":false,"note":"","ig":""},{"name":"พี่มิ้ม","table":"9","seats":[1],"kid":false,"note":"","ig":""},{"name":"พี่ยุ่น","table":"9","seats":[2],"kid":false,"note":"","ig":""},{"name":"ปังแมน","table":"9","seats":[3],"kid":false,"note":"","ig":""},{"name":"พี่หนิง","table":"9","seats":[4],"kid":false,"note":"","ig":""},{"name":"พี่วิน","table":"9","seats":[5],"kid":false,"note":"","ig":""},{"name":"กัสจัง","table":"9","seats":[6],"kid":false,"note":"","ig":""},{"name":"น้านุ่ม","table":"9","seats":[7,8],"kid":false,"note":"","ig":""},{"name":"พี่เจน","table":"9","seats":[9,10],"kid":false,"note":"","ig":""},{"name":"โกนี","table":"10","seats":[1],"kid":false,"note":"","ig":""},{"name":"อาโรจน์","table":"10","seats":[2],"kid":false,"note":"","ig":""},{"name":"น้องมิ้ง","table":"10","seats":[3],"kid":false,"note":"","ig":""},{"name":"น้องริน","table":"10","seats":[4],"kid":false,"note":"","ig":""},{"name":"โกนา","table":"10","seats":[5],"kid":false,"note":"","ig":""},{"name":"อาทัด","table":"10","seats":[6],"kid":false,"note":"","ig":""},{"name":"นิลิน","table":"10","seats":[7],"kid":false,"note":"","ig":""},{"name":"อาหลาบ","table":"10","seats":[8],"kid":false,"note":"","ig":""},{"name":"เจ๊กวุฒิ","table":"10","seats":[9],"kid":false,"note":"","ig":""},{"name":"อาม่า","table":"10","seats":[10],"kid":false,"note":"","ig":""},{"name":"ลุงชวน","table":"11","seats":[1],"kid":false,"note":"","ig":""},{"name":"ป้ากุ้ง","table":"11","seats":[2],"kid":false,"note":"","ig":""},{"name":"ยายสม","table":"11","seats":[3],"kid":false,"note":"","ig":""},{"name":"ตาเรือง","table":"11","seats":[4],"kid":false,"note":"","ig":""},{"name":"ลุงนูน","table":"11","seats":[5],"kid":false,"note":"","ig":""},{"name":"ป้านก","table":"11","seats":[6],"kid":false,"note":"","ig":""},{"name":"เจ้เจ๋ง","table":"11","seats":[7],"kid":false,"note":"","ig":""},{"name":"เจ้จิ๋ม","table":"11","seats":[8],"kid":false,"note":"","ig":""},{"name":"ลุงปิ๊ด","table":"11","seats":[9],"kid":false,"note":"","ig":""},{"name":"โบว์","table":"12","seats":[1,2,3,4,5,6],"kid":false,"note":"","ig":""},{"name":"แก้ม","table":"12","seats":[7,8],"kid":false,"note":"","ig":""},{"name":"แมว","table":"12","seats":[9],"kid":false,"note":"","ig":""},{"name":"แพรว","table":"12","seats":[10],"kid":false,"note":"","ig":""},{"name":"น้าเป็ด","table":"13","seats":[1,2],"kid":false,"note":"","ig":""},{"name":"น้าแหม่ม","table":"13","seats":[3,4],"kid":false,"note":"","ig":""},{"name":"น้าฟ้า","table":"13","seats":[5,6],"kid":false,"note":"","ig":""},{"name":"เพื่อนพ่อ","table":"13","seats":[7,8,9],"kid":false,"note":"","ig":""},{"name":"บ้านป้าเป๊ะ","table":"14","seats":[1,2],"kid":false,"note":"","ig":""},{"name":"พี่มด","table":"14","seats":[3,4],"kid":false,"note":"","ig":""},{"name":"บูม","table":"14","seats":[5],"kid":false,"note":"","ig":""},{"name":"แฟนบูม","table":"14","seats":[6],"kid":false,"note":"","ig":""},{"name":"บีม","table":"14","seats":[7],"kid":false,"note":"","ig":""},{"name":"แฟนบีม","table":"14","seats":[8],"kid":false,"note":"","ig":""},{"name":"Earth","table":"15","seats":[1],"kid":false,"note":"","ig":""},{"name":"Pump","table":"15","seats":[2],"kid":false,"note":"","ig":""},{"name":"Por","table":"15","seats":[3,4],"kid":false,"note":"maybe (ยังไม่ยืนยันมา)","ig":""},{"name":"Boss","table":"15","seats":[5],"kid":false,"note":"","ig":""},{"name":"Pla","table":"15","seats":[6],"kid":false,"note":"","ig":""},{"name":"Top - วิณญู","table":"15","seats":[7],"kid":false,"note":"","ig":""},{"name":"Job","table":"15","seats":[8],"kid":false,"note":"","ig":""},{"name":"Top","table":"15","seats":[9],"kid":false,"note":"","ig":""},{"name":"คุณอัฐ","table":"16","seats":[1],"kid":false,"note":"","ig":""},{"name":"คุณยุ้ย","table":"16","seats":[2],"kid":false,"note":"","ig":""},{"name":"พี่ส้ม","table":"16","seats":[3,4,5,6,7],"kid":false,"note":"","ig":""},{"name":"พี่เดียร์","table":"16","seats":[8,9],"kid":false,"note":"","ig":""},{"name":"คุณตาล AIA","table":"16","seats":[10],"kid":false,"note":"","ig":""},{"name":"ชิลท้อก","table":"17","seats":[1],"kid":false,"note":"","ig":""},{"name":"พี่นนท์","table":"17","seats":[2],"kid":false,"note":"","ig":""},{"name":"พลอย","table":"17","seats":[3],"kid":false,"note":"","ig":""},{"name":"พี่ปั้น","table":"17","seats":[4],"kid":false,"note":"","ig":""},{"name":"เฟิร์น","table":"17","seats":[5],"kid":false,"note":"","ig":""},{"name":"ไวท์","table":"17","seats":[6],"kid":false,"note":"","ig":""},{"name":"ซีวิว","table":"17","seats":[7],"kid":false,"note":"","ig":""},{"name":"แอลลี่","table":"17","seats":[8],"kid":false,"note":"","ig":""},{"name":"ปาล์ม","table":"17","seats":[9],"kid":false,"note":"","ig":""},{"name":"แฟนปาล์ม","table":"17","seats":[10],"kid":false,"note":"","ig":""},{"name":"พี่แจน","table":"18","seats":[1],"kid":false,"note":"","ig":""},{"name":"พี่ฝ้าย","table":"18","seats":[2],"kid":false,"note":"","ig":""},{"name":"อ้อม","table":"18","seats":[3],"kid":false,"note":"","ig":""},{"name":"แฟนอ้อม","table":"18","seats":[4],"kid":false,"note":"","ig":""},{"name":"พี่คิตตี้","table":"18","seats":[5,6,7,8],"kid":false,"note":"","ig":""},{"name":"พี่เบิร์ด","table":"18","seats":[9],"kid":false,"note":"","ig":""},{"name":"พี่ยุ้ย","table":"18","seats":[10],"kid":false,"note":"","ig":""},{"name":"Pea","table":"19","seats":[1],"kid":false,"note":"","ig":""},{"name":"Arm","table":"19","seats":[2],"kid":false,"note":"","ig":""},{"name":"Noon","table":"19","seats":[3],"kid":false,"note":"","ig":""},{"name":"Pong","table":"19","seats":[4,5],"kid":false,"note":"","ig":""},{"name":"Jee","table":"19","seats":[6,7,8],"kid":false,"note":"","ig":""},{"name":"น้องไนซ์","table":"20","seats":[1,2],"kid":false,"note":"","ig":""},{"name":"พี่ดอย","table":"20","seats":[3],"kid":false,"note":"","ig":""},{"name":"กอฟ","table":"20","seats":[4],"kid":false,"note":"","ig":""},{"name":"กอฟ - แฟน","table":"20","seats":[5],"kid":false,"note":"","ig":""},{"name":"ปลื้ม","table":"20","seats":[6,7],"kid":false,"note":"","ig":""},{"name":"บุ๊กบิก","table":"20","seats":[8],"kid":false,"note":"","ig":""},{"name":"ไต้หวัน","table":"20","seats":[9],"kid":false,"note":"","ig":""},{"name":"พี่กิต","table":"20","seats":[10],"kid":false,"note":"","ig":""},{"name":"ปัน","table":"21","seats":[1],"kid":false,"note":"","ig":""},{"name":"ไหม","table":"21","seats":[2],"kid":false,"note":"","ig":""},{"name":"เปอร์","table":"21","seats":[3],"kid":false,"note":"","ig":""},{"name":"ธูป","table":"21","seats":[4],"kid":false,"note":"","ig":""},{"name":"แมค","table":"21","seats":[5],"kid":false,"note":"","ig":""},{"name":"เฮียบอส","table":"21","seats":[6,7],"kid":false,"note":"","ig":""},{"name":"เต","table":"21","seats":[8,9],"kid":false,"note":"","ig":""},{"name":"อาจารย์","table":"21","seats":[10],"kid":false,"note":"","ig":""},{"name":"เอื้อย","table":"22","seats":[1,2,3,4],"kid":false,"note":"","ig":""},{"name":"ไอซ์","table":"22","seats":[5,6,7],"kid":false,"note":"","ig":""},{"name":"ติ๊บ","table":"22","seats":[8,9],"kid":false,"note":"","ig":""},{"name":"เจ้ปูน","table":"22","seats":[10],"kid":false,"note":"","ig":""},{"name":"Golf","table":"23","seats":[1],"kid":false,"note":"","ig":""},{"name":"Nim","table":"23","seats":[2],"kid":false,"note":"","ig":""},{"name":"Liang","table":"23","seats":[3],"kid":false,"note":"","ig":""},{"name":"Non","table":"23","seats":[4,5],"kid":false,"note":"","ig":""},{"name":"Chord","table":"23","seats":[6],"kid":false,"note":"","ig":""},{"name":"Trung","table":"23","seats":[7],"kid":false,"note":"","ig":""},{"name":"Yai","table":"23","seats":[8],"kid":false,"note":"","ig":""},{"name":"Ohm","table":"23","seats":[9,10],"kid":false,"note":"","ig":""},{"name":"พี่เต้น","table":"24","seats":[1],"kid":false,"note":"","ig":""},{"name":"พี่แน๊ค","table":"24","seats":[2],"kid":false,"note":"","ig":""},{"name":"จั๋ง","table":"24","seats":[3],"kid":false,"note":"","ig":""},{"name":"พี่เหมียว","table":"24","seats":[4],"kid":false,"note":"","ig":""},{"name":"ไหม","table":"25","seats":[1],"kid":false,"note":"","ig":""},{"name":"ไกด์","table":"25","seats":[2],"kid":false,"note":"","ig":""},{"name":"นุ่น","table":"25","seats":[3],"kid":false,"note":"","ig":""},{"name":"ท้อป","table":"25","seats":[4],"kid":false,"note":"","ig":""},{"name":"เมจิ","table":"25","seats":[5],"kid":false,"note":"","ig":""},{"name":"มานา","table":"25","seats":[6],"kid":false,"note":"","ig":""},{"name":"น้ำมนต์","table":"25","seats":[7],"kid":false,"note":"","ig":""},{"name":"ไหม","table":"26","seats":[1],"kid":false,"note":"","ig":""},{"name":"ไกด์","table":"26","seats":[2],"kid":false,"note":"","ig":""},{"name":"นุ่น","table":"26","seats":[3],"kid":false,"note":"","ig":""},{"name":"ท้อป","table":"26","seats":[4],"kid":false,"note":"","ig":""},{"name":"เมจิ","table":"26","seats":[5],"kid":false,"note":"","ig":""},{"name":"มานา","table":"26","seats":[6],"kid":false,"note":"","ig":""},{"name":"น้ำมนต์","table":"26","seats":[7],"kid":false,"note":"","ig":""},{"name":"บิว","table":"27","seats":[1,2,3],"kid":false,"note":"","ig":""},{"name":"โบว์","table":"27","seats":[4,5],"kid":false,"note":"","ig":""},{"name":"พี่ภัทร","table":"27","seats":[6],"kid":false,"note":"","ig":""},{"name":"พี่ส้ม","table":"27","seats":[7],"kid":false,"note":"","ig":""},{"name":"พี่ฮวย","table":"27","seats":[8],"kid":false,"note":"","ig":""},{"name":"พี่อู๊ด","table":"27","seats":[9],"kid":false,"note":"","ig":""},{"name":"พี่บ๊อบ","table":"27","seats":[10],"kid":false,"note":"","ig":""},{"name":"พี่สุ","table":"29","seats":[1],"kid":false,"note":"","ig":""},{"name":"พี่กร","table":"29","seats":[2],"kid":false,"note":"","ig":""},{"name":"นก","table":"29","seats":[3],"kid":false,"note":"","ig":""},{"name":"พี่หนึ่ง","table":"29","seats":[4],"kid":false,"note":"","ig":""},{"name":"พี่จอย","table":"29","seats":[5],"kid":false,"note":"","ig":""},{"name":"คุณอาสุกิจ","table":"29","seats":[6],"kid":false,"note":"","ig":""},{"name":"ดา","table":"29","seats":[7],"kid":false,"note":"","ig":""},{"name":"พี่ตอง","table":"29","seats":[8],"kid":false,"note":"","ig":""},{"name":"วิน","table":"29","seats":[9],"kid":false,"note":"","ig":""}],"reserved":[]}
+</script>
+
+<script>
+/* ===== Countdown to 20 Nov 2026 18:00 (Bangkok, UTC+7) ===== */
+(function(){
+  const target=new Date('2026-11-20T18:00:00+07:00').getTime();
+  const $=id=>document.getElementById(id), pad=n=>String(n).padStart(2,'0');
+  function tick(){
+    let s=Math.floor((target-Date.now())/1000);
+    if(s<=0){$('countdown').style.display='none';$('cd-cap').style.display='none';$('cd-done').style.display='block';return;}
+    $('cd-d').textContent=Math.floor(s/86400); s%=86400;
+    $('cd-h').textContent=pad(Math.floor(s/3600)); s%=3600;
+    $('cd-m').textContent=pad(Math.floor(s/60));
+    $('cd-s').textContent=pad(s%60);
+    setTimeout(tick,1000-Date.now()%1000);
+  }
+  tick();
+})();
+</script>
+
+<script>
+/* ===== Moments reel: auto-playing photo film ===== */
+(function(){
+  const N=7, DUR=3800, reel=document.getElementById('reel'), bars=document.getElementById('bars'), pp=document.getElementById('reel-pp');
+  reel.style.setProperty('--dur',DUR+'ms');
+  const frames=[];
+  for(let i=1;i<=N;i++){
+    const src='img/m'+String(i).padStart(2,'0')+'.jpg';
+    const f=document.createElement('div');f.className='f';
+    f.innerHTML='<div class="bg"></div><img alt="" decoding="async">';
+    f.dataset.src=src; reel.insertBefore(f,bars); frames.push(f);
+    const b=document.createElement('i');b.innerHTML='<b></b>';bars.appendChild(b);
+  }
+  function load(k){const f=frames[k%N];if(f.dataset.done)return;f.dataset.done=1;const im=f.querySelector('img');
+    im.onload=()=>{const r=im.naturalWidth/im.naturalHeight; if(r>0.6&&r<0.8) f.classList.add('cover');};
+    im.src=f.dataset.src;f.querySelector('.bg').style.backgroundImage='url('+f.dataset.src+')';}
+  let cur=-1,timer=null,playing=true,started=false;
+  function go(k){
+    cur=(k+N)%N; load(cur); load(cur+1);
+    frames.forEach((f,i)=>f.classList.toggle('on',i===cur));
+    [...bars.children].forEach((b,i)=>{b.className=i<cur?'done':'';});
+    const cb=bars.children[cur]; void cb.offsetWidth; cb.className=playing?'cur':'done';
+    clearTimeout(timer); if(playing) timer=setTimeout(()=>go(cur+1),DUR);
+  }
+  reel.addEventListener('click',e=>{if(e.target===pp)return;go(cur+1);});
+  pp.onclick=()=>{playing=!playing;pp.textContent=playing?'❚❚':'▶';go(cur);};
+  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting&&!started){started=true;go(0);}})},{rootMargin:'300px'});
+  io.observe(reel);
+})();
+</script>
+
+<script>
+const DATA = JSON.parse(document.getElementById('seat-data').textContent);
+const STAFF = location.hash==='#staff';
+window.addEventListener('hashchange',()=>location.reload());
+
+/*PLANJS-START*/
+/* ===== Room geometry: Grand Ballroom, Courtyard by Marriott Suvarnabhumi (from hotel plan) — stage on the right ===== */
+const X=x=>40+(x-5)*1.2, Y=y=>100+(y-2)*1.2;   // hotel-plan px -> svg
+const ROUND={1:[570,68],2:[514,68],3:[461,68],4:[405,68],5:[578,284],6:[524,287],7:[463,288],8:[407,285],9:[342,225],10:[345,287],
+ 11:[282,71],12:[282,133],13:[283,210],14:[283,271],15:[228,73],16:[228,133],17:[228,210],18:[228,274],19:[173,73],20:[172,133],
+ 21:[172,209],22:[172,266],23:[117,64],24:[117,118],25:[120,173],26:[117,227],27:[117,286],28:[55,65],29:[55,118],30:[56,173],31:[58,228],32:[55,287]};
+// long tables: one "table" per side. seat 1 = end nearest the stage, chairs every 13.7px
+const LONG={A:{pair:'B',ty:120,cy:111,half:0},B:{pair:'A',ty:128,cy:145,half:1},C:{pair:'D',ty:211,cy:203.5,half:0},D:{pair:'C',ty:219,cy:234.5,half:1}};
+const TBY={};
+DATA.tables.forEach(t=>{
+  if(t.type==='long'){Object.assign(t,LONG[t.id]);t.x=X(479);t.y=Y(t.cy);}
+  else{const p=ROUND[t.id];t.x=X(p[0]);t.y=Y(p[1]);}
+  TBY[t.id]=t;});
+const R_T=13, R_C=21, R_S=4;
+function seatPos(t,s){
+  if(t.type==='long') return [X(575-(s-1)*13.7), Y(t.cy)];
+  const a=(180+(s-1)*360/t.cap)*Math.PI/180; return [t.x+R_C*Math.cos(a), t.y+R_C*Math.sin(a)]; // seat 1 = away from stage, clockwise
+}
+const seatNums=t=>Array.from({length:t.cap},(_,i)=>i+1);
+const lab=(t,s)=>t.type==='long'?t.id+s:String(s);
+
+/* ===== Build SVG ===== */
+const NS='http://www.w3.org/2000/svg';
+function el(tag,attrs,parent,text){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(text!=null)e.textContent=text;if(parent)parent.appendChild(e);return e;}
+const VB={x:14,y:6,w:906,h:532};
+function rr(x1,y1,x2,y2,attrs,p){return el('rect',Object.assign({x:X(x1),y:Y(y1),width:(x2-x1)*1.2,height:(y2-y1)*1.2,rx:3},attrs),p);}
+function buildPlan(){
+  const svg=el('svg',{viewBox:`${VB.x} ${VB.y} ${VB.w} ${VB.h}`,role:'img','aria-label':'ผังห้องจัดเลี้ยง'});
+  // foyer above the ballroom
+  el('rect',{x:300,y:14,width:470,height:72,rx:8,class:'foyer'},svg);
+  el('text',{x:640,y:32,'text-anchor':'middle',class:'lbl',style:'font-size:9.5px'},svg,'Foyer · โถงหน้าห้อง');
+  el('rect',{x:592,y:46,width:96,height:14,rx:3,fill:'#F4EBEC',stroke:'#E0CFD3'},svg);
+  el('text',{x:640,y:72,'text-anchor':'middle',class:'lbl',style:'font-size:8.5px'},svg,'Backdrop / Photo Booth');
+  el('rect',{x:700,y:46,width:56,height:14,rx:3,fill:'#F4EBEC',stroke:'#E0CFD3'},svg);
+  el('text',{x:728,y:72,'text-anchor':'middle',class:'lbl',style:'font-size:8.5px'},svg,'Gift');
+  el('rect',{x:318,y:30,width:132,height:22,rx:4,class:'here'},svg);
+  el('text',{x:384,y:45,'text-anchor':'middle',class:'lbl',style:'font-size:9.5px;fill:#fff;letter-spacing:.14em'},svg,'Registration');
+  el('text',{x:384,y:68,'text-anchor':'middle',class:'lbl-th',style:'font-size:11px;fill:#C8734A'},svg,'จุดลงทะเบียน');
+  // ballroom
+  rr(5,2,718,352,{class:'room',rx:6},svg);
+  // partition lines (dashed in hotel plan)
+  el('path',{d:`M${X(220)} ${Y(2)} V${Y(352)} M${X(446)} ${Y(2)} V${Y(352)} M${X(20)} ${Y(177)} H${X(220)}`,class:'wall'},svg);
+  // entrances (arrows in hotel plan) + walking path from registration
+  el('path',{d:`M384 52 C 384 80, ${X(299)} 82, ${X(299)} ${Y(14)} M450 41 C 470 41, ${X(367)} 60, ${X(367)} ${Y(14)}`,fill:'none',stroke:'#C8734A','stroke-width':1.6,'stroke-dasharray':'5 4'},svg);
+  [[299],[367]].forEach(([x])=>el('path',{d:`M${X(x)-7} ${Y(10)} l7 10 l7 -10 z`,fill:'#C8734A'},svg));
+  el('text',{x:X(333),y:Y(30),'text-anchor':'middle',class:'lbl-th',style:'font-size:9.5px;fill:#C8734A'},svg,'ทางเข้าห้องจัดเลี้ยง');
+  // side doors (left wall)
+  el('path',{d:`M${X(5)} ${Y(142)} v${30*1.2} M${X(5)} ${Y(178)} v${32*1.2}`,stroke:'#fff','stroke-width':3},svg);
+  el('text',{x:X(10),y:Y(150),class:'lbl',style:'font-size:7.5px',transform:`rotate(90 ${X(10)} ${Y(150)})`},svg,'Door');
+  // buffet, stations, bar
+  rr(37,8,223,25,{fill:'#F4EBEC',stroke:'#E0CFD3'},svg); el('text',{x:X(130),y:Y(16.5)+3,'text-anchor':'middle',class:'lbl',style:'font-size:9px'},svg,'Buffet Line');
+  rr(56,328,242,345,{fill:'#F4EBEC',stroke:'#E0CFD3'},svg); el('text',{x:X(149),y:Y(336.5)+3,'text-anchor':'middle',class:'lbl',style:'font-size:9px'},svg,'Buffet Line');
+  rr(237,8,273,25,{fill:'#F8F2F3',stroke:'#E6DADD'},svg);
+  rr(406,11,446,29,{fill:'#F8F2F3',stroke:'#E6DADD'},svg);
+  rr(254,328,294,345,{fill:'#F8F2F3',stroke:'#E6DADD'},svg);
+  rr(343,325,381,345,{fill:'#EFE4E6',stroke:'#D8C6CA'},svg); el('text',{x:X(362),y:Y(335)+3,'text-anchor':'middle',class:'lbl',style:'font-size:9px'},svg,'Bar');
+  rr(315,155,358,187,{fill:'#F7E6DA',stroke:'#E3C2AA'},svg); el('text',{x:X(336.5),y:Y(171)+3,'text-anchor':'middle',class:'lbl',style:'font-size:8.5px'},svg,'Cake');
+  // stage, band, LED
+  rr(634,6,676,70,{fill:'#F4EBEC',stroke:'#E0CFD3'},svg); el('text',{x:X(655),y:Y(38)+3,'text-anchor':'middle',class:'lbl',style:'font-size:9px'},svg,'Live Band');
+  rr(634,77,698,247,{fill:'#E9D7DA',stroke:'#CDB0B7'},svg);
+  el('text',{x:X(675),y:Y(162),'text-anchor':'middle',class:'lbl',style:'font-size:14px;fill:#5C4148',transform:`rotate(90 ${X(675)} ${Y(162)})`},svg,'MAIN STAGE');
+  el('text',{x:X(660),y:Y(162),'text-anchor':'middle',class:'lbl-th',style:'font-size:10.5px',transform:`rotate(90 ${X(660)} ${Y(162)})`},svg,'เวที · B&G');
+  rr(704,81,710,238,{fill:'#9FD9D3',stroke:'none',rx:2},svg);
+  el('text',{x:X(714),y:Y(160),'text-anchor':'middle',class:'lbl',style:'font-size:8px',transform:`rotate(90 ${X(714)} ${Y(160)})`},svg,'LED Screen');
+
+  const taken=new Set();DATA.guests.forEach(g=>g.seats.forEach(s=>taken.add(g.table+'-'+s)));
+  // long table bodies (drawn per side so a side can be highlighted)
+  DATA.tables.filter(t=>t.type==='long').forEach(t=>{
+    const g=el('g',{class:'tg','data-t':t.id},svg);
+    rr(380,t.ty,578,t.ty+8,{class:'long-tb',rx:t.half?2:2},g);
+    el('rect',{x:X(376),y:Y(Math.min(t.cy,t.ty))-6,width:206*1.2,height:Math.abs(Y(t.cy)-Y(t.ty+(t.half?0:8)))+12,rx:6,class:'ring',style:'display:none'},g);
+    el('text',{x:X(390),y:Y(t.ty+4),class:'tb-name in',style:'font-size:8.5px'},g,t.id);
+    el('text',{x:X(568),y:Y(t.ty+4),class:'tb-name in',style:'font-size:8.5px'},g,t.id);
+    for(const s of seatNums(t)){const[x,y]=seatPos(t,s);
+      el('rect',{x:x-R_S,y:y-R_S,width:R_S*2,height:R_S*2,rx:1.6,class:'chs'+(taken.has(t.id+'-'+s)?' taken':'')},g);}
+  });
+  [[128,'โต๊ะยาว 1','A / B'],[219,'โต๊ะยาว 2','C / D']].forEach(([y,a,b])=>{
+    el('text',{x:X(606),y:Y(y)-3,'text-anchor':'middle',class:'lbl-th',style:'font-size:8.5px'},svg,a);
+    el('text',{x:X(606),y:Y(y)+9,'text-anchor':'middle',class:'lbl',style:'font-size:8.5px'},svg,b);});
+  // round tables (incl. unused/spare ones, drawn faded without a number)
+  Object.keys(ROUND).forEach(id=>{
+    const t=TBY[id], off=!t||t.empty, p=ROUND[id], tt=t||{x:X(p[0]),y:Y(p[1]),cap:10};
+    const g=el('g',{class:'tg'+(off?' off':''),'data-t':off?'':id},svg);
+    el('circle',{cx:tt.x,cy:tt.y,r:R_T,class:'tb'},g);
+    el('circle',{cx:tt.x,cy:tt.y,r:R_C+R_S+5,class:'ring',style:'display:none'},g);
+    if(!off) el('text',{x:tt.x,y:tt.y+.5,class:'tb-name in',style:'font-size:10px'},g,id);
+    for(let s=1;s<=10;s++){const a=(180+(s-1)*36)*Math.PI/180;const x=tt.x+R_C*Math.cos(a),y=tt.y+R_C*Math.sin(a);
+      el('circle',{cx:x,cy:y,r:R_S,class:'ch'+(!off&&taken.has(id+'-'+s)?' taken':'')},g);}
+  });
+  el('g',{class:'me-layer'},svg);
+  return svg;
+}
+/*PLANJS-END*/
+const LISTED=DATA.tables.filter(t=>!t.empty);
+const svg=buildPlan();
+document.getElementById('plan-scroll').appendChild(svg);
+
+/* ===== Helpers ===== */
+const norm=s=>String(s).toLowerCase().normalize('NFC').replace(/[\s\-–&+().,'_\/]/g,'').replace(/คุณ/g,'').replace(/^k\./,'').replace(/^k(?=[a-z])/,'');
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function seatText(t,seats){
+  if(!seats.length) return '';
+  const s=[...seats].sort((a,b)=>a-b), p=t.type==='long'?t.id:'';
+  if(s.length>1 && s[s.length-1]-s[0]===s.length-1) return p+s[0]+'–'+p+s[s.length-1];
+  return s.map(x=>p+x).join(', ');
+}
+function where(t){
+  const px=(t.x-40)/1.2+5;
+  if(t.type==='long') return 'ใกล้เวที (โต๊ะยาวหน้าเวที)';
+  return px>=380 ? 'ใกล้เวที' : px>=230 ? 'กลางห้อง' : 'ท้ายห้อง (ฝั่งตรงข้ามเวที)';
+}
+const tLabel=t=>t.type==='long'?t.name:'โต๊ะกลม'+(t.name?' · '+t.name:'');
+
+/* ===== Overview plan (under the search box) ===== */
+const ov=buildPlan(); document.getElementById('ov-scroll').appendChild(ov);
+const tlist=document.getElementById('tlist');
+LISTED.forEach(t=>{const li=document.createElement('li');li.innerHTML=`<button data-t="${t.id}"><b${t.type==='long'?' class="lg"':''}>${t.id}</b><span>${esc(t.name)}</span></button>`;tlist.appendChild(li);});
+function fillSeats(ul,ids,me){
+  ul.innerHTML='';
+  ids.forEach((id,k)=>{const t=TBY[id];
+    if(ids.length>1){const h=document.createElement('li');h.className='side-h';h.textContent='ฝั่ง '+id+(k===0?'':' (ฝั่งตรงข้าม)');ul.appendChild(h);}
+    const bySeat={};DATA.guests.filter(x=>x.table===id).forEach(x=>x.seats.forEach(s=>bySeat[s]=x));
+    const res={};DATA.reserved.filter(r=>r.table===id).forEach(r=>res[r.seat]=r.label);
+    for(const s of seatNums(t)){const x=bySeat[s],li=document.createElement('li'),L=lab(t,s),cls=t.type==='long'?' class="lg"':'';
+      if(x){ if(x===me) li.className='me'; li.innerHTML=`<b${cls}>${L}</b><span>${esc(x.name)}${x.kid?' <em class="kid-tag">เด็ก</em>':''}${STAFF&&x.note&&x!==me?' <small>· '+esc(x.note)+'</small>':''}</span>`; }
+      else { li.className='vacant'; li.innerHTML=`<b${cls} style="background:#E8DADD">${L}</b><span>${esc(res[s]||'ว่าง')}</span>`; }
+      ul.appendChild(li);}
+  });
+}
+const used=id=>{const n=new Set();DATA.guests.filter(x=>x.table===id).forEach(x=>x.seats.forEach(s=>n.add(s)));return n.size;};
+function pickTable(id,scroll){
+  const t=TBY[id];
+  ov.querySelectorAll('.tg').forEach(n=>n.classList.toggle('pick',n.dataset.t===id));
+  tlist.querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.t===id));
+  document.getElementById('tp-h').innerHTML=`${t.type==='long'?'':'โต๊ะ '+id+' · '}${esc(t.name)}<small>${used(id)} / ${t.cap} ที่นั่ง${STAFF&&t.note?' · '+esc(t.note):''}</small>`;
+  fillSeats(document.getElementById('tp-list'),[id]);
+  const p=document.getElementById('tpanel');p.style.display='block';
+  const sp=document.getElementById('ov-scroll');const ratio=sp.scrollWidth/VB.w;sp.scrollTo({left:Math.max(0,(t.x-VB.x)*ratio-sp.clientWidth/2),behavior:'smooth'});
+  if(scroll) p.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+ov.querySelectorAll('.tg').forEach(n=>{if(n.dataset.t)n.addEventListener('click',()=>pickTable(n.dataset.t,true));});
+tlist.addEventListener('click',e=>{const b=e.target.closest('button');if(b)pickTable(b.dataset.t,true);});
+
+/* ===== Search ===== */
+const q=document.getElementById('q'),list=document.getElementById('matches'),empty=document.getElementById('empty'),more=document.getElementById('more'),
+      result=document.getElementById('result'),clearBtn=document.getElementById('clear'),hint=document.getElementById('hint');
+DATA.guests.forEach(g=>g._n=norm(g.name)+'|'+norm(g.ig||''));
+q.addEventListener('input',()=>{
+  const raw=q.value.trim(), v=norm(raw); clearBtn.style.display=raw?'block':'none';
+  list.innerHTML='';empty.style.display='none';more.style.display='none';
+  if(!v){result.style.display='none';hint.style.display='block';return;}
+  hint.style.display='none';
+  const hits=DATA.guests.filter(g=>g._n.includes(v));
+  if(!hits.length){empty.style.display='block';result.style.display='none';return;}
+  if(hits.length===1){show(hits[0]);return;}
+  result.style.display='none';
+  hits.slice(0,20).forEach(g=>{
+    const t=TBY[g.table];
+    const li=document.createElement('li'),b=document.createElement('button');
+    b.innerHTML=`<span>${esc(g.name)}${g.kid?' <em class="kid-tag">เด็ก</em>':''}<span class="sub">${esc(t.name)}</span></span><span class="tag">${t.type==='long'?'ที่นั่ง '+esc(seatText(t,g.seats)):'โต๊ะ '+esc(g.table)}</span>`;
+    b.onclick=()=>{list.innerHTML='';more.style.display='none';show(g);};
+    li.appendChild(b);list.appendChild(li);
+  });
+  if(hits.length>20){more.style.display='block';more.textContent=`พบ ${hits.length} รายชื่อ ลองพิมพ์ให้ละเอียดขึ้นอีกนิดนะคะ`;}
+});
+clearBtn.onclick=()=>{q.value='';q.dispatchEvent(new Event('input'));q.focus();};
+
+function show(g){
+  const t=TBY[g.table], st=seatText(t,g.seats);
+  document.getElementById('r-name').innerHTML=esc(g.name)+(g.kid?' <em class="kid-tag">เด็ก</em>':'');
+  document.getElementById('r-table').textContent=g.table;
+  document.getElementById('r-tname').textContent=tLabel(t);
+  const sc=document.getElementById('r-seat-chip');
+  const sv=seatText({type:'round'},g.seats);
+  if(sv){sc.style.display='';document.getElementById('r-seat').textContent=sv;document.getElementById('r-seat').style.fontSize=sv.length>4?'26px':'';}else sc.style.display='none';
+  document.getElementById('r-desc').textContent = !g.seats.length ? 'ยังไม่ได้ระบุเลขที่นั่ง ทีมงานจะพาไปที่นั่งหน้างานค่ะ'
+    : t.type==='long' ? `${t.name} · อยู่${where(t)} · ที่นั่ง ${st} (ที่นั่ง 1 อยู่ปลายโต๊ะฝั่งเวที)`
+    : `โต๊ะอยู่${where(t)} · เก้าอี้หมายเลข ${st} (เลข 1 อยู่ฝั่งตรงข้ามเวที นับวนตามเข็มนาฬิกา)`;
+  const note=document.getElementById('r-note');
+  const notes=[g.note,STAFF&&t.note?'โต๊ะ '+t.id+': '+t.note:''].filter(Boolean).join(' · ');
+  if(STAFF&&notes){note.style.display='block';note.textContent='สำหรับทีมงาน · '+notes;}else note.style.display='none';
+  svg.querySelectorAll('.tg').forEach(n=>{const on=n.dataset.t===g.table;n.classList.toggle('hl',on);n.classList.toggle('dim',!on);n.querySelector('.ring').style.display=on?'':'none';});
+  const me=svg.querySelector('.me-layer');me.innerHTML='';
+  g.seats.forEach(s=>{const[x,y]=seatPos(t,s);el('circle',{cx:x,cy:y,r:R_S+1,class:'pulse'},me);el('circle',{cx:x,cy:y,r:R_S+1.6,class:'me-seat'},me);});
+  const ids=t.type==='long'?[t.id,t.pair]:[t.id];
+  fillSeats(document.getElementById('mates'),ids,g);
+  document.getElementById('r-count').textContent=t.type==='long'?`${used(t.id)+used(t.pair)} / ${t.cap*2} ที่นั่ง`:`${used(t.id)} / ${t.cap} ที่นั่ง`;
+  setTab('plan');
+  result.style.display='block';
+  requestAnimationFrame(()=>{const sp=document.getElementById('plan-scroll');const ratio=sp.scrollWidth/VB.w;sp.scrollTo({left:Math.max(0,(t.x-VB.x)*ratio-sp.clientWidth/2),behavior:'smooth'});
+    result.scrollIntoView({behavior:'smooth',block:'start'});});
+  q.blur();
+}
+function setTab(name){document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.tab===name));
+  document.getElementById('tab-plan').style.display=name==='plan'?'':'none';document.getElementById('tab-mates').style.display=name==='mates'?'':'none';}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
+</script>
+</body>
+</html>
