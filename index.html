@@ -286,6 +286,20 @@ footer p{font-size:12.5px;opacity:.9;margin-top:16px;line-height:1.7}
 .dress h4{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400}
 .tl .t2 small.vn{font-family:'Josefin Sans';letter-spacing:.1em;font-size:11px;color:var(--mauve-deep)}
 .part .vn{font-size:12.5px;color:var(--mauve-deep);margin-top:2px}
+
+.photos{margin-top:44px;text-align:center;background:linear-gradient(160deg,#fff,var(--blush));border:1px solid var(--line);border-radius:var(--radius);padding:30px 22px 26px;box-shadow:0 14px 40px rgba(156,120,128,.12);scroll-margin-top:12px}
+.photos .ph-ico{width:54px;height:54px;margin:0 auto 10px;border-radius:50%;background:var(--mauve);color:#fff;display:grid;place-items:center;animation:breathe 3s ease-in-out infinite}
+.photos .ph-ico svg{width:26px}
+.photos .eyebrow{color:var(--mauve-deep)}
+.photos h3{font-family:'Prompt';font-weight:400;font-size:21px;color:var(--plum);margin-top:6px;line-height:1.4}
+.photos p{font-size:14.5px;color:var(--muted);margin-top:10px;line-height:1.75}
+.photos p.en{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16.5px;color:var(--ink);margin-top:6px}
+.ph-btn{display:inline-flex;align-items:center;gap:10px;margin-top:20px;background:#06C755;color:#fff;text-decoration:none;padding:12px 26px;border-radius:999px;font-size:15.5px;font-weight:400;box-shadow:0 8px 22px rgba(6,199,85,.28);text-align:left;line-height:1.25}
+.ph-btn svg{width:24px;height:24px;flex:none}
+.ph-btn small{display:block;font-size:11.5px;opacity:.9}
+.ph-qr{width:190px;margin:20px auto 0;background:#fff;border-radius:18px;padding:10px;box-shadow:0 6px 20px rgba(92,65,72,.12)}
+.ph-note{font-size:12px;color:var(--muted);margin-top:10px}
+.hero .cta2{display:block;width:max-content;max-width:100%;margin:14px auto 0;color:#fff;text-decoration:none;font-size:13.5px;border:1px solid rgba(255,255,255,.6);border-radius:999px;padding:8px 18px;background:rgba(255,255,255,.12);backdrop-filter:blur(6px)}
 </style>
 </head>
 <body>
@@ -319,6 +333,7 @@ footer p{font-size:12.5px;opacity:.9;margin-top:16px;line-height:1.7}
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       ค้นหาที่นั่งของคุณ
     </a>
+    <a class="cta2" href="#photos">📸 รับภาพจาก Backdrop ผ่าน LINE · Get your photos</a>
   </div>
 </section>
 
@@ -390,6 +405,21 @@ footer p{font-size:12.5px;opacity:.9;margin-top:16px;line-height:1.7}
         ดาวน์โหลดผังโต๊ะ (PDF)
       </a>
       <div class="dl-note">Seating Plan artwork · ผังห้องพร้อมรายชื่อทุกโต๊ะ</div>
+    </div>
+
+    <!-- PHOTOS FROM THE BACKDROP -->
+    <div class="photos" id="photos">
+      <div class="ph-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8.5A2.5 2.5 0 0 1 6.5 6h1.6l1.2-1.8h5.4L15.9 6h1.6A2.5 2.5 0 0 1 20 8.5v8A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5z"/><circle cx="12" cy="12.5" r="3.6"/></svg></div>
+      <div class="eyebrow">Your photos are ready</div>
+      <h3>ภาพน่ารัก ๆ ของคุณ รออยู่ตรงนี้แล้ว</h3>
+      <p>ถ่ายรูปกับคู่บ่าวสาวหรือที่ Backdrop แล้วใช่ไหมคะ?<br>กดปุ่มด้านล่าง (หรือสแกน QR) เพื่อรับภาพผ่าน LINE ได้เลย<br>ภาพจากในงานจะทยอยส่งมาให้ตลอดค่ำคืนนี้ค่ะ</p>
+      <p class="en">Strike a pose, then come back here! Your photos from the backdrop and photo booth are delivered straight to your LINE, all night long.</p>
+      <a class="ph-btn" href="https://liff.line.me/2006146043-Gglm4ENX?projectId=169365&amp;projectCode=FBD56&amp;projectName=K.AIR%20%2B%20K.BAS&amp;openExternalBrowser=1" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C6.5 3 2 6.6 2 11c0 3.9 3.5 7.2 8.3 7.9.3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.5s6-3.5 8.2-6.1C21.6 14.2 22 12.7 22 11c0-4.4-4.5-8-10-8z"/></svg>
+        <span>รับภาพของคุณผ่าน LINE<small>Get your photos via LINE</small></span>
+      </a>
+      <div class="ph-qr"><img src="img/photos-qr.png" alt="QR รับภาพผ่าน LINE" loading="lazy"></div>
+      <div class="ph-note">สแกนด้วยมือถือของเพื่อน หรือกดปุ่มด้านบนได้เลย · Scan or tap to open</div>
     </div>
   </div>
 </section>
